@@ -97,7 +97,7 @@
       const hours=Math.floor(diff/hour); diff%=hour;
       const minutes=Math.floor(diff/min); diff%=min;
       const seconds=Math.floor(diff/sec);
-      $counter.textContent=`We were together ${days} day ${pad(hours)} hour ${pad(minutes)} min ${pad(seconds)} second`;
+      $counter.textContent=`We were together ${days} days ${pad(hours)} hour ${pad(minutes)} min ${pad(seconds)} second`;
     }
     tick(); setInterval(tick,1000);
 
